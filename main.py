@@ -1,7 +1,7 @@
 import openai 
 import gradio as gr 
 
-openai.api_key = "вставь_сюда_свой_API_ключ" 
+openai.api_key = "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" 
 
 def chat_with_gpt(prompt):
   response = openai.ChatCompletion.create(
